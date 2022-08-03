@@ -16,7 +16,7 @@ convert /tmp/src.png \
     \) -alpha off -compose CopyOpacity -composite /tmp/output.png
 
 # 添加白色背景和阴影、边框
-convert /tmp/output.png -bordercolor none -border 20 \( +clone -background black -shadow 100x15+0+0 \) \
+convert /tmp/output.png -bordercolor none -border 20 \( +clone -background black -shadow 80x15+0+0 \) \
 	+swap -background white -layers merge +repage /tmp/des.png
 
 # 将生成的文件输出到剪切板
