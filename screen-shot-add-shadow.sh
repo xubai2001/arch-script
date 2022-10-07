@@ -1,7 +1,8 @@
 #!/bin/bash -e
 
 # 使用深度截图
-/usr/bin/deepin-screenshot -n
+# /usr/bin/deepin-screenshot -n
+/usr/bin/deepin-screen-recorder -n
 
 # 截图后从剪切板中读取图片至/tmp/src.png
 sleep 0.3
